@@ -23,7 +23,7 @@ class UI {
                         <br><br>
                         <ul class = "list-group">
                             <li class = "list-group-item">Company: ${user.company}</li>
-                            <li class = "list-group-item">Website/Blod: ${user.blog}</li>
+                            <li class = "list-group-item">Website/Blog: ${user.blog}</li>
                             <li class = "list-group-item">Location: ${user.location}</li>
                             <li class = "list-group-item">Member since: ${user.created_at}</li>
                         </ul>
@@ -78,7 +78,7 @@ class UI {
         // Timeout after 3 seconds
         setTimeout(() => {
             this.clearAlert();
-        }, 3000);
+        }, 2000);
     }
 
     // Clear alert message
